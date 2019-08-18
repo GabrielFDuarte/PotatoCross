@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/03/2019, 22:56:42
+    Author     : Gabriel Duarte
+*/
+
+html{
+    background: cadetblue;
+    background-image: url(../images/potatoCoverFull.jpg);
+    background-size: cover;
+}
+
+body{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#canvas{
+    border: solid 1px black;
+    margin: 0px auto;
+    display: block;
+}
+
+#btnMenu{
+    text-align: center;
+    width: 640px;
+    margin: 0px auto;
+}
+
+@font-face {
+    font-family: "Press Start 2p";
+    src: url("../fonts/PressStart2P.ttf");
+}
+
+body {
+    font-family: "Press Start 2p";
+    font-size: 25pt;
+}
+.start-btn{
+    text-align: center;
+    display: inline-block;
+    margin:5px;
+    font-weight: bold;
+    padding: 10px 0 10px 10px ;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    box-shadow: 0 .2em gray; 
+    cursor: pointer;
+
+}
+.start-btn:active {
+    box-shadow: none;
+    position: relative;
+    top: .2em;
+}
